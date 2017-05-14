@@ -1,0 +1,9 @@
+.Todolist-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.Todolist-container ul {
+  text-align: left;
+  padding: 0;
+}
