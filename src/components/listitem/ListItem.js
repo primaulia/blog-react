@@ -1,15 +1,25 @@
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-class ListItem extends React.Component {
+const ListItem = (props) => (
+  <ul>
+    <li>{props.doThis}</li>
+  </ul>
+)
 
-  render() {
-    return (
-      <ul>
-        <li>{this.props.doThis}</li>
-      </ul>
-    );
-  }
-
+ListItem.propTypes = {
+  doThis: PropTypes.array
 }
 
-export default ListItem;
+export default ListItem
+
+// class ListItem extends React.Component {
+//
+//   render() {
+//     return (
+//       <ul>
+//         <li>{this.props.doThis}</li>
+//       </ul>
+//     );
+//   }
+// }

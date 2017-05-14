@@ -1,0 +1,7 @@
+.FruitContainer {
+  margin: 20px;
+}
+
+.FruitContainer-listItem {
+  list-style-type: none;
+}
